@@ -166,15 +166,7 @@ def main():
     plt.grid(True, linestyle='--', alpha=0.5)
     plt.tight_layout()
     plt.show()
-
-    # Gráfico 3: gráfico de pizza com porcentagens
-    plt.figure(figsize=(6, 6))
-    plt.pie(valores, labels=categorias, colors=cores, autopct='%1.1f%%', startangle=140, explode=(0.1, 0))
-    plt.title('Proporção de Fraudes e Não Fraudes nas Transferências')
-    plt.axis('equal')
-    plt.tight_layout()
-    plt.show()
-
+    
 # Executa o programa se o arquivo for rodado diretamente
 if __name__ == "__main__":
     main()

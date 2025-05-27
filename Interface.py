@@ -149,7 +149,7 @@ class AppFraude:
         ax2.set_ylabel('Frequência', fontsize=12)
         ax2.grid(axis='y', linestyle='--', alpha=0.5)
         fig2.tight_layout()
-
+        
         canvas2 = FigureCanvasTkAgg(fig2, master=self.frame_grafico2)
         canvas2.draw_idle()
         canvas2.get_tk_widget().pack(fill='both', expand=True)
