@@ -26,7 +26,9 @@ Detectar transações suspeitas de forma automática, utilizando um modelo trein
 
 ```bash
 pip install pandas scikit-learn imbalanced-learn matplotlib seaborn
-'''
+```
+
+---
 
 ##📁 Estrutura do Projeto
 .
