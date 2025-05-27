@@ -30,6 +30,7 @@ pip install pandas scikit-learn imbalanced-learn matplotlib seaborn
 
 ---
 
+```bash
 ##📁 Estrutura do Projeto
 .
 -├── dados_analise/
@@ -41,7 +42,11 @@ pip install pandas scikit-learn imbalanced-learn matplotlib seaborn
 -├── scaler_fraude.pkl                # Normalizador usado
 -├── treinar_modelo.py               # Script de treinamento
 -├── prever_fraude.py                # Script de análise + envio por e-mail
--└── interface_.py      
+-└── interface_.py  
+
+```
+
+---
 
 🔎 Funcionalidades
 Pré-processamento dos dados de entrada.
